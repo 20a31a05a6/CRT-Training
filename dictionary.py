@@ -18,7 +18,7 @@ print(Dict.get(2))
 Dict = {'student1': {'id': '20a31a05a6'},
         'student2': {'id': '20a31a05b6'}}
 print(Dict['student1']['id'])
-'''
+
 Dict1 = {'cou1': {'branch': 'cse'},
         'cou2': {'branch': 'cse-ds'}}
 
@@ -51,7 +51,7 @@ for i in range(5):
                'key2' : input()
     })
     lst.append(d)
-print(lst)'''
+print(lst)
 
 # passward and username
 
