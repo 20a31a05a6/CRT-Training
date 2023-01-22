@@ -1,0 +1,29 @@
+1. create a name for Repository.
+2. copy the link
+3. open the saving folders.
+4. commands on command prompt:
+
+'''
+4.1. git init
+4.2. git remote add origin (link to remote repo)
+4.3. git add .
+4.4. git commit -m "a mandatory message(Ex:initial commit)"
+4.5. git push origin master(branches) 
+     *git branch {branch name} (changes in branch....) '''
+
+
+***** …or create a new repository on the command line********
+
+echo "# CRT-training" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/20a31a05a6/CRT-training.git
+git push -u origin main
+
+********** …or push an existing repository from the command line*********
+
+git remote add origin https://github.com/20a31a05a6/CRT-training.git
+git branch -M main
+git push -u origin main
